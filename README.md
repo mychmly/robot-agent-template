@@ -79,3 +79,59 @@
 启动后，默认访问：
 
 - `http://localhost:3000`
+
+## 给学生的克隆与启动说明
+
+当前 GitHub 仓库的默认分支已经设置为学生分发分支，因此你们可以直接执行：
+
+```bash
+git clone https://github.com/mychmly/robot-agent-template.git
+cd robot-agent-template
+```
+
+然后按以下顺序启动：
+
+```bash
+npm install
+cp .env.example .env
+```
+
+接着打开 `.env`，填写你们自己的模型配置：
+
+- `BASE_URL`
+- `API_KEY`
+- `MODEL`
+
+建议默认先使用：
+
+- `BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1`
+- `MODEL=qwen3.6-plus`
+
+填好后执行：
+
+```bash
+npm run dev
+```
+
+浏览器打开：
+
+- `http://localhost:3000`
+
+## 建议的第一次测试方式
+
+第一次启动成功后，建议先做最小测试，不要急着改代码：
+
+1. 直接输入一条系统事件说明
+2. 再上传一张你们自己准备的环境图片
+3. 观察网页是否返回：
+   - 中文解释性回复
+   - 结构化结果
+   - 右侧 `Execution Info`
+
+推荐的第一条测试文本：
+
+```text
+系统事件：机器人刚完成一次客厅巡视，请判断是否需要主动提醒主人。
+```
+
+如果这一步能跑通，再开始把默认设定改成你们自己组的机器人方案。
