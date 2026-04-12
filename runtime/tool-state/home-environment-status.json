@@ -1,0 +1,17 @@
+{
+  "home_id": "student-template-home-001",
+  "area_id": "living_room",
+  "area_name": "客厅",
+  "floor_name": "一层",
+  "timestamp": "2026-04-11T10:45:00+08:00",
+  "source": "student_template_environment_feed",
+  "states": {
+    "occupancy": "clear",
+    "door": "closed",
+    "window": "closed",
+    "light": "off",
+    "air_conditioner": "on",
+    "temperature_c": 24.5,
+    "humidity_pct": 48
+  }
+}

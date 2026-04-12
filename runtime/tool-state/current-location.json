@@ -1,0 +1,11 @@
+{
+  "home_id": "student-template-home-001",
+  "area_id": "living_room",
+  "area_name": "客厅",
+  "floor_id": "floor_1",
+  "floor_name": "一层",
+  "timestamp": "2026-04-11T10:41:12+08:00",
+  "source_type": "student_template_location_feed",
+  "source_label": "student_template_location_feed",
+  "confidence": 0.95
+}
