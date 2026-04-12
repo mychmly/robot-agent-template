@@ -117,6 +117,19 @@ npm run dev
 
 - `http://localhost:3000`
 
+如果你的本机在 `npm run dev` 时出现文件监听过多、`EMFILE`、首页返回异常等开发态问题，可以改用：
+
+```bash
+WATCHPACK_POLLING=true npm run dev
+```
+
+如果你只是想先验证“能不能跑起来”，也可以先执行：
+
+```bash
+npm run build
+npm run start
+```
+
 ## 建议的第一次测试方式
 
 第一次启动成功后，建议先做最小测试，不要急着改代码：
