@@ -117,6 +117,12 @@ npm run dev
 
 - `http://localhost:3000`
 
+如果 `3000` 端口已经被其他程序占用，Next.js 会自动切换到其他可用端口。  
+这时请以终端里实际显示的本地地址为准，例如：
+
+- `http://localhost:3001`
+- `http://localhost:3002`
+
 如果你的本机在 `npm run dev` 时出现文件监听过多、`EMFILE`、首页返回异常等开发态问题，可以改用：
 
 ```bash
