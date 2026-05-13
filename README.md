@@ -155,7 +155,16 @@ npm run start
 
 如果这一步能跑通，再开始把默认设定改成你们自己组的机器人方案。
 
-## 课程讲义 PDF 下载
+## 课程讲义下载
 
-- 第一讲 PPT 预览与下载：[lesson-1.pdf](https://github.com/mychmly/robot-agent-template/releases/latest/download/lesson-1.pdf)
-- 第二讲 PPT 预览与下载：[lesson-2.pdf](https://github.com/mychmly/robot-agent-template/releases/latest/download/lesson-2.pdf)
+当前已公开提供三讲课件，可直接下载：
+
+- 第一讲 PDF：[lesson-1.pdf](https://github.com/mychmly/robot-agent-template/releases/download/course-materials-v1/lesson-1.pdf)
+- 第二讲 PDF：[lesson-2.pdf](https://github.com/mychmly/robot-agent-template/releases/download/course-materials-v1/lesson-2.pdf)
+- 第三讲 HTML：[lesson-3.html](https://github.com/mychmly/robot-agent-template/releases/download/course-materials-v1/lesson-3.html)
+  - 下载后双击用浏览器打开（推荐 Chrome / Safari）
+  - 方向键 / 空格翻页，按 F 进入全屏
+
+如果后续有更新版本，也可以直接查看 Releases 页面：
+
+- [GitHub Releases](https://github.com/mychmly/robot-agent-template/releases)
